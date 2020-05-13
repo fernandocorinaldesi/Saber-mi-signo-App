@@ -1,0 +1,75 @@
+[
+  {
+    "signo": "Aries",
+    "imagen": "https://i.ibb.co/kJKtfJb/arias.jpg",
+    "tooltip":"",
+    "info":"Los Aries son aventureros y energéticos, son pioneros y valientes. Son listos, dinámicos, seguros de si y suelen demostrar entusiasmo hacia las cosas. Les gusta la aventura y los retos. A un Aries le gusta ganar y ser espontáneo. También le gusta dar su apoyo a una buena causa."
+  },
+  { "signo": "Tauro", 
+    "imagen": "https://i.ibb.co/84n5rw9/tauro.jpg", 
+    "tooltip" : "",
+    "info":"Un tauro es paciente, persistente, decidido y fiable. A un tauro le encanta sentirse seguro, tiene buen corazón y es muy cariñoso. Les gusta la estabilidad, las cosas naturales, el placer y la comodidad. Los tauro disfrutan con tiempo para reflexionar y les encanta sentirse atraído hacía alguien."
+  },
+    
+    
+  {
+    "signo": "Geminis",
+    "imagen": "https://i.ibb.co/0MMw4T5/geminis.jpg",
+    "tooltip":"",
+    "info":"Las personas de signo géminis tienes una gran adaptabilidad y versatilidad. Los géminis son intelectuales, elocuentes, cariñosos, comunicativos e inteligentes. Tienen mucha energía y vitalidad. Les gusta hablar, leer, hacer varias cosas a la vez. Los geminis disfrutan con lo inusual y la novedad. Cuánto más variedad en su vida, mejor."
+  },
+  {
+    "signo": "Cancer",
+    "imagen": "https://i.ibb.co/bFTvDxK/cancer.jpg",
+    "tooltip":"",
+    "info":"Un cáncer es emocional y cariñoso, protector y simpático. Un Cáncer tiene mucha imaginación e intuición. Sabe ser cauteloso cuando hace falta. Les gusta su casa, el campo, los niños. Le gusta disfrutar con sus aficiones y le gustan las fiestas. A un cáncer también le gusta el romance."
+  },
+  { "signo": "Leo", 
+    "imagen": "https://i.ibb.co/njFTppz/leo.jpg",
+    "tooltip":"",
+    "info":"Un Leo es generoso y bondadoso, fiel y cariñoso. Es creativo y entusiasta y comprensivo con los demás. Les gusta la aventura, el lujo y la comodidad. Un leo disfruta con los niños, el teatro y las fiestas. También le motiva el riesgo."
+},
+    
+  {
+    "signo": "Virgo",
+    "imagen": "https://i.ibb.co/fvhYthr/virgo.jpg",
+    "tooltip":"",
+    "info":"Modestia, inteligencia y timidez son características de las este signo. Los virgo suelen ser meticulosos, prácticos y trabajadores. Tienen gran capacidad analítica y son fiables. Les gusta la vida sana, hacer listas, el orden y la higiene"
+  },
+  { "signo": "Libra", 
+    "imagen": "https://i.ibb.co/ZhDHsnn/libra.jpg",
+    "tooltip":"",
+    "info":"Una persona de signo libra es diplomatica, encantadora y sociable. Los libra son idealistas, pacíficos, optimistas y románticos. Tienen un carácter afable y equilibrado."
+},
+    
+  {
+    "signo": "Escorpio",
+    "imagen": "https://i.ibb.co/BNDP516/escorpio.jpg",
+    "tooltip":"",
+    "info":"Escorpio es emocional, decidido, poderoso y apasionado. El Escorpio es un signo con mucho magnetismo. Les gusta la verdad, el trabajo cuando tiene sentido. A un Escorpio le gusta involucrarse en causas y convencer a los demás."
+  },
+  {
+    "signo": "Sagitario",
+    "imagen": "https://i.ibb.co/HnP1Tym/sagitario.jpg",
+    "tooltip":"",
+    "info":"Un sagitario es intelectual, honesto, sincero y simpático. A los sagitario les caracteriza el optimismo, su modestia y su buen humor. Es un signo muy empático y comprensivo. Les gusta la libertad, viajar, las leyes, la aventura."
+  },
+  {
+    "signo": "Capricornio",
+    "imagen": "https://i.ibb.co/4M78pRV/capricornio.jpg",
+    "tooltip":"",
+    "info":"Un capricornio tiene ambición y es disciplinado. Es práctico y prudente, tiene paciencia y hasta es cauteloso cuando hace falta. Tiene un buen sentido de humor y es reservado. Les gusta la fiabilidad, el profesionalismo, una base sólida, tener un objetivo, el liderazgo."
+  },
+  {
+    "signo": "Acuario",
+    "imagen": "https://i.ibb.co/bJ1MrL2/acuario.jpg",
+    "tooltip":"",
+    "info":"Un Acuario es simpático y humanitario. Es honesto y totalmente leal, original y brillante. Un acuario es independiente e intelectual. Les gusta luchar por causas buenas, soñar y planificar para un futuro feliz, aprender del pasado, los buenos amigos y divertirse."
+  },
+  {
+    "signo": "Piscis",
+    "imagen": "https://i.ibb.co/ZzHRtt8/piscis.jpg",
+    "tooltip":"",
+    "info":"Un piscis es Imaginativo y sensible. Es amable y tiene compasión hacia los demás. Es intuitivo y piensa en los demás. A piscis le gusta estar solo para soñar. Le gusta el misterio y el ridículo. Le gusta perderse."
+  }
+]

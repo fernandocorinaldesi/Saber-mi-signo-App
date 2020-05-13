@@ -1,0 +1,11 @@
+.formulario{
+  background: #13142B;
+  box-shadow: 0 0 5px 0 black;
+  border: rgb(27, 34, 92) 5px solid;
+  color:white
+}
+button{
+  box-shadow: 0 0 5px 0 black;
+  background: lightgray;
+  border-radius: 4px;
+}

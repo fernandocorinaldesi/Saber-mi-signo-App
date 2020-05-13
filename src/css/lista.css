@@ -1,0 +1,9 @@
+
+.image-container .image:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.tooltip:hover{
+    visibility: visible;
+   
+}
