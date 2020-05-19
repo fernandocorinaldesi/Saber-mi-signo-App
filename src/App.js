@@ -9,22 +9,25 @@ class App extends Component {
   state = {
     signosdata: [],
     signoelegido: [],
-    input: "",
+    show:false,
+    input: ""
   };
 
   async componentDidMount() {
     try {
       const respuesta = await fetch("./data/signos.json");
       const signosdata = await respuesta.json();
-      this.setState({ signosdata: signosdata, signoelegido: [] });
+      this.setState({ signosdata: signosdata, signoelegido: [],show:false });
     } catch (error) {
       alert(error);
     }
   }
   handler = (e) => {
     const signovalue = e.target.getAttribute("value");
-    const elegido = this.state.signosdata.filter((s) => s.signo === signovalue);
-    this.setState({ signoelegido: elegido });
+    const elegido = this.state.signosdata.filter((s) => s.signo === signovalue).map(e=>{
+      return {signo :e.signo,info:e.info};
+    });
+    this.setState({ signoelegido: elegido,show:false });
   };
   handlechange = (e) => {
     this.setState({ input: e.target.value });
@@ -37,11 +40,11 @@ class App extends Component {
     const result = BuscarSigno(birthmonth, birthday);
 
     const misigno = this.state.signosdata.filter((s) => s.signo === result);
-    this.setState({ signoelegido: misigno });
+    this.setState({ signoelegido: misigno,show:true });
   };
 
   render() {
-    const { signosdata, signoelegido } = this.state;
+    const { signosdata, signoelegido,show } = this.state;
     return (
       <div className="App">
         <div className="up-container">
@@ -53,7 +56,7 @@ class App extends Component {
               handlechange={this.handlechange}
               handleclick={this.handleclick}
             />
-            <SignoElegido signoelegido={signoelegido} />
+            <SignoElegido signoelegido={signoelegido} show={show} />
           </div>
         </div>
         <div className="lista-signos">
