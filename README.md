@@ -5,7 +5,7 @@ Otra practica mas en React.Consiste en una app que te dice tu signo y sus caract
 ![Screenshoot](https://i.ibb.co/s39PSXP/zodiacpic.jpg)
 
 ## Video en youtube
-[https://youtu.be/7ywF7_wXDp0](https://youtu.be/7ywF7_wXDp0)
+[https://youtu.be/CnJFY3JSZSo](https://youtu.be/CnJFY3JSZSo)
 
 
 ## Available Scripts
